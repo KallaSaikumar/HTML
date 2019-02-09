@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Field Set & Legend</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS", sans-serif;
+            background-image: url("img/background1.jpg");
+        }
+        table{
+            width: 100%;
+        }
+        fieldset{
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            font-size: 18px;
+            margin: 20px;
+            border: 2px solid white;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            box-shadow: 0 0 15px black;
+        }
+        legend{
+            background-image: url("img/background2.jpg");
+            padding: 10px;
+            border: 2px solid white;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        </style>
+</head>
+<body>
+
+<form>
+    <!-- Personal Information -->
+    <fieldset>
+        <legend>Personal Information</legend>
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>Middle Name</td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>Last Name</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>Mother's Name</td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>Father's Name</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <!-- Education Details -->
+    <fieldset>
+        <legend>Education Details</legend>
+        <table>
+            <tr>
+                <td>SNO</td>
+                <td>Qualification</td>
+                <td>University</td>
+                <td>Year Of Passing</td>
+                <td>Marks(%)</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="month">
+                </td>
+                <td>
+                    <input type="number" min="0" max="100">
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="month">
+                </td>
+                <td>
+                    <input type="number" min="0" max="100">
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <input type="month">
+                </td>
+                <td>
+                    <input type="number" min="0" max="100">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+
+</body>
+</html>

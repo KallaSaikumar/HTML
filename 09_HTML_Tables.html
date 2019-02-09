@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table , th,td {
+            border:2px solid blue;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+        }
+        table{
+            width: 100%;
+            box-shadow: 0 0 15px black;
+
+        }
+        #red thead{
+            background-color: orangered;
+            color: white;
+        }
+
+        #red tbody{
+            background-color: greenyellow;
+        }
+        img{
+            box-shadow: 0 0 15px blue;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Simple Table -->
+    <h2> Simple Table </h2>
+    <table>
+        <thead>
+         <tr>
+            <th>sno</th>
+            <th>NAME</th>
+            <th>DESIGNATION</th>
+            <th>COMPANY</th>
+         </tr>
+        </thead>
+
+        <tbody>
+         <tr>
+             <td>1</td>
+             <td>rajan</td>
+             <td>team lead</td>
+             <td>microsoft</td>
+         </tr>
+         <tr>
+             <td>2</td>
+             <td>hari</td>
+             <td>manager</td>
+             <td>microsoft</td>
+         </tr>
+         <tr>
+             <td>3</td>
+             <td>SSK</td>
+             <td>ceo</td>
+             <td>microsoft</td>
+         </tr>
+         <tr>
+             <td>4</td>
+             <td>Satya</td>
+             <td>founder</td>
+             <td>microsoft</td>
+         </tr>
+        </tbody>
+    </table>
+
+
+    <!-- Table with Col Span -->
+    <h2> Table with Col Span </h2>
+    <table>
+        <thead>
+        <tr>
+            <th>sno</th>
+            <th>NAME</th>
+            <th colspan="2">DESIGNATION and COMPANY</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>rajan</td>
+            <td>team lead</td>
+            <td>microsoft</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>hari</td>
+            <td colspan="2">manager</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>SSK</td>
+            <td>ceo</td>
+            <td>microsoft</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Satya</td>
+            <td>founder</td>
+            <td>microsoft</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <!-- Table With Row Span -->
+    <h2> Table With Row Span </h2>
+
+    <table>
+        <thead>
+        <tr>
+            <th>sno</th>
+            <th>NAME</th>
+            <th>DESIGNATION</th>
+            <th>COMPANY</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>rajan</td>
+            <td>team lead</td>
+            <td>microsoft</td>
+        </tr>
+        <tr>
+            <td>hari</td>
+            <td>manager</td>
+            <td>microsoft</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>SSK</td>
+            <td>ceo</td>
+            <td>microsoft</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Satya</td>
+            <td>founder</td>
+            <td>microsoft</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <!-- Custom Table with CSS -->
+    <h2> Custom Table with CSS </h2>
+    <table id="red">
+        <thead>
+        <tr>
+            <th>sno</th>
+            <th>NAME</th>
+            <th>DESIGNATION</th>
+            <th>COMPANY</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>rajan</td>
+            <td>team lead</td>
+            <td>microsoft</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>hari</td>
+            <td>manager</td>
+            <td>microsoft</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>SSK</td>
+            <td>ceo</td>
+            <td>microsoft</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Satya</td>
+            <td>founder</td>
+            <td>microsoft</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h2>table task</h2>
+
+    <table>
+        <tbody>
+        <tr>
+            <td rowspan="3"><a href="https://en.wikipedia.org/wiki/India" target="_blank" title="about INDIA"><img src="img/Flag_of_India.png" width="100px" height="100px"></a> </td>
+            <td>Lorem ipsum dolor.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum dolor.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum dolor sit.</td>
+            <td>Lorem ipsum dolor sit amet.</td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum dolor.</td>
+            <td>Lorem ipsum dolor sit.</td>
+            <td>Lorem ipsum dolor sit.</td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum dolor.</td>
+            <td>Lorem ipsum dolor sit.</td>
+            <td>Lorem ipsum dolor sit.</td>
+        </tr>
+        </tbody>
+
+        </thead>
+    </table>
+
+
+</body>
+</html>
